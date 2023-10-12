@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Hirut Assefa Gebrekidan">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hirut Assefa Gebrekidan | Manual tester, software tester, ISTQB certified tester">
+  <meta name="twitter:title" content="Hirut Assefa Gebrekidan | Manual tester, tester, software tester,ISTQB certified tester">
+  <meta property="og:description"
+    content="Offering custom web solutions and showcasing a diverse range of front-end web development and projects that demonstrate my testing and coding skills such as html, css, javascript.">
+  <meta name="twitter:description"
+    content="Offering custom web solutions and showcasing a diverse range of front-end web development projects that demonstrate my testing and my coding skills such as html, css, javascript.">
+  <title>Hirut Assefa Gebrekidan | web developer,Frontend developer, tester</title>
+  <meta name="title" content="Hirut Assefa Gebrekidan | Manual tester, tester, QA Engineer, ISTQB certified tester">
+  <meta name="keywords"
+    content="Software Tester,web testing, junior tester, JavaScript, html, css, tester, software tester, manual tester, ISTQB certified tester">
+  <meta name="description"
+    content="Offering custom web solutions and showcasing a diverse range of front-end web development projects that demonstrate my testing and coding skills such as html, css, javascript, Software tester.">
+  <!--  FAVICON -->
+  <!-- fallback favicon in png format -->
+  <link rel="icon" type="image/png" href="assets/images/favicon32X32.png">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon32X32.svg">
+
+  <!-- REMIX ICONS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+  <!-- GOOGLE FONT -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!--CSS STYLE -->
+  <link rel="stylesheet" href="assets/style.css">
+  <!--Email JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("fNnH1XYM_FOUkkRkn");
+    })();
+  </script>
+  <!-- JS -->
+  <script src="assets/app.js" defer></script>
+</head>
+
+<body>
+  <!-----===== HEADER START=========--->
+    <header class="header" id="header">
+      <nav class="nav container flex">
+        <a href="#home" class="nav__logo flex">
+          <img src="assets/images/favicon32X32.svg" alt="logo" class="nav__logo-circle">
+          <span class="nav__logo-name">Hirut Assefa G.</span>
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link nav__link-button">Contact Me</a>
+            </li>
+          </ul>
+          <!-- close button -->
+          <div class="nav__close" id="nav-close" aria-label="Close Navigation">
+            <i class="ri-close-line" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="nav__buttons flex">
+          <!-- theme button -->
+          <i class="ri-moon-line change-theme" id="theme-button" aria-label="Change Theme"></i>
+          <!-- toggle button -->
+          <div class="nav__toggle flex" id="nav-toggle" aria-label="Toggle Navigation">
+            <i class="ri-menu-4-line" aria-hidden="true"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!----===== HEADER END=========-->
+
+      <!----==== MAIN START========-->
+        <main class="main">
+          <!--==================== HOME START====================-->
+          <section class="home section" id="home">
+            <div class="home__container container grid">
+              <h1 class="home__name text-center">
+                M.Sc. Hirut Assefa Gebrekidan
+              </h1>
+
+              <div class="home__profile">
+                <div class="home__image">
+                  <img src="assets/images/profile-img.jpg" alt="Profile Picture of Hirut Assefa Gebrekidan"
+                    class="home__img" loading="lazy">
+                </div>
+                <div class="home__social">
+                  <a href="https://www.linkedin.com/in/hirutassefa/" class="home__social-link" target="_self" rel="noopener" title="LinkedIn Profile">
+                    <i class="ri-linkedin-box-line"></i>
+                  </a>
+                  <a href="https://twitter.com/GebrekidanHirut" class="home__social-link" target="_self" rel="noopener" title="Twitter Profile">
+                    <i class="ri-twitter-line"></i>
+                  </a>
+                  <a href="https://github.com/HirutAssefa" class="home__social-link" target="_self" rel="noopener" title="Github Profile">
+                    <i class="ri-github-line"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="home__info">
+                <p class="home__description text-center">
+                  As a Frontend Developer with dual expertise in <strong>web development and software testing</strong>,
+                  I'm
+                  dedicated to delivering top-tier projects.
+                </p>
+
+                <div class="cta flex">
+                  <a href="#about" class="home__scroll  flex" aria-label="Scroll Down to Learn More">
+                    <div class="home__scroll-box">
+                      <i class='ri-arrow-down-s-line'></i>
+                    </div>
+                    <span class="home__scroll-text">
+                      Scroll Down
+                    </span>
+                  </a>
+                  <a href="/images/gebrekidan-portfolio.pdf" class="home__download flex"  aria-label="Download CV" download="/images/gebrekidan-portfolio.pdf">
+                    <div class="home__download-icon">
+                      <i class='ri-download-line'></i>
+                    </div>
+                    <span class="home__download-text">
+                      Download CV
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--==================== HOME END====================-->
+
+          <!--==================== ABOUT START ====================-->
+          <section class="about section" id="about">
+            <div class="about__container container grid">
+              <h2 class="section__title-1 text-center">
+                <span>About Me</span>
+              </h2>
+              <div class="about__perfil">
+                <div class="about__image">
+                  <img src="assets/images/about-img.png" alt="profile picture" class="about__img" loading="lazy">
+                </div>
+              </div>
+              <div class="about__info">
+                <p class="about__description">
+                  I'm an enthusiastic and adaptable professional actively seeking roles in <strong>web development and
+                    software testing</strong>, despite my lack of prior work experience. I bring a strong grasp of
+                  software
+                  testing concepts. My commitment to continuous learning drives my readiness to excel in a dynamic
+                  industry.
+                </p>
+                <div class="about__buttons">
+                  <a href="#contact"
+                   class="button">
+                    <i class="ri-send-plane-line"></i>Contact Me
+                    <meta name="description" content="">
+                    <a href="https://www.linkedin.com/in/hirutassefa/" class="button__ghost" target="_self" rel="noopener" title="LinkedIn Profile">
+                      <i class="ri-linkedin-box-line"></i>
+                    </a>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--==================== ABOUT END====================-->
+
+          <!--==================== SKILLS START====================-->
+          <section class="skill section" id="skills">
+            <div class="skill__container container grid">
+              <h2 class="section__title-1">
+                <span>Skills</span>
+              </h2>
+              <article class='col skill__programming'>
+                <div class="sub-title">
+                  <h3 class="h3 text-center">Programming Skills</h3>
+                </div>
+                <div class="skills-container">
+                  <div class="skill">
+                    <div class="subject">HTML</div>
+                    <div class="progress-bar" value='94%'>
+                      <div class="progress-line" style='max-width: 94%'></div>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <div class="subject">CSS</div>
+                    <div class="progress-bar" value='91%'>
+                      <div class="progress-line" style='max-width: 91%'></div>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <div class="subject">Javascript</div>
+                    <div class="progress-bar" value='83%'>
+                      <div class="progress-line" style='max-width: 83%'></div>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <div class="subject">SASS</div>
+                    <div class="progress-bar" value='94%'>
+                      <div class="progress-line" style='max-width: 94%'></div>
+                    </div>
+                  </div>
+
+                  <div class="skill">
+                    <div class="subject">BOOTSTRAP</div>
+                    <div class="progress-bar" value='94%'>
+                      <div class="progress-line" style='max-width: 94%'></div>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <div class="subject">Git/Github</div>
+                    <div class="progress-bar" value='80%'>
+                      <div class="progress-line" style='max-width: 80%'></div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class='col skill__design'>
+                <div class="sub-title">
+                  <h3 class="h3 text-center">UX/UI Design Skills
+                    </h3>
+                </div>
+                <div class="skills-container">
+                  <div class="skill">
+                    <div class="subject">Figma</div>
+                    <div class="progress-bar" value='78%'>
+                      <div class="progress-line" style='max-width: 78%'></div>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <div class="subject">Illustrator</div>
+                    <div class="progress-bar" value='63%'>
+                      <div class="progress-line" style='max-width: 63%'></div>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <div class="subject">Canva</div>
+                    <div class="progress-bar" value='93%'>
+                      <div class="progress-line" style='max-width: 93%'></div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+          <!--==================== SKILLS END====================-->
+
+          <!--==================== EDUCATION START====================-->
+          <section class="education section" id="education">
+            <div class="education__container container grid">
+              <h2 class="section__title-1">
+                <span>Education</span>
+              </h2>
+
+              <article class='education-degree'>
+                <div class="sub-title">
+                  <h3 class="h3 text-center">Courses &amp; University Degree's</h3>
+                </div>
+                <div class="contents">
+                  <div class="box">
+                    <h4>2016 - 2020</h4>
+                    <p>Master’s Degree in Global Migration and Development studies, Faculty ofScience, Charles
+                      University,
+                      Prague (In Czech Language)</p>
+                  </div>
+                  <div class="box">
+                    <h4>2020 - 2021</h4>
+                    <p>Programming Qualification Course, VŠB-Technical University Of Ostrava (In Czech Language)</p>
+                  </div>
+                  <div class="box">
+                    <h4>2002 - 2006</h4>
+                    <p>Bachelor of Education, Bahir Dar University, Bahir Dar, Ethiopia</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class='education__certificate'>
+                <div class="sub-title">
+                  <h3 class="h3 text-center">Certificates</h3>
+                </div>
+                <div class="contents">
+                  <div class="box">
+                    <h4>2023</h4>
+                    <p>ISTQB Certified Tester Foundation Level, Česká Společnost Projakost</p>
+                  </div>
+
+                  <div class="box">
+                    <h4>2022</h4>
+                    <p>Google Analytics For Beginners, Google</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+          <!--==================== EDUCATION END====================-->
+
+          <!--==================== PROJECTS START====================-->
+          <section class="projects section" id="projects">
+            <div class="container">
+              <h2 class="section__title-1">
+                <span>Projects.</span>
+              </h2>
+              <div class="projects__container container grid">
+                <article class="projects__card">
+                  <div class="projects__image">
+                    <img src="assets/images/project1.JPG" alt="Project 1" class="projects__img">
+                    <a href="https://click-agency.netlify.app/" class="projects__button button" rel="noopener">
+                      <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                  </div>
+                  <div class="projects__content">
+                    <h3 class="projects__subtitle">Website</h3>
+                    <h2 class="projects__title">Click Marketing Agency Website</h2>
+                    <p class="projects__description">
+                      Elevate your online presence with a captivating website crafted by Hirut Assefa.
+                    </p>
+                  </div>
+                  <div class="projects__buttons">
+                    <a href="https://github.com/HirutAssefa/click-marketing-agency" class="projects__link" target="_self" rel="noopener">
+                      <i class="ri-github-line"></i>Code
+                    </a>
+
+                    <a href="https://click-agency.netlify.app/" class="projects__link" target="_self" rel="noopener">
+                      <i class="ri-computer-line"></i>View
+                    </a>
+                  </div>
+                </article>
+
+                <!-- 2nd -->
+                <article class="projects__card">
+                  <div class="projects__image">
+                    <img src="assets/images/project2.JPG" alt="project 2" class="projects__img">
+                    <a href="https://vibestudio.netlify.app/" class="projects__button button" rel="noopener">
+                      <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                  </div>
+                  <div class="projects__content">
+                    <h3 class="projects__subtitle">Website</h3>
+                    <h2 class="projects__title">Vibe Studio Landing Page website</h2>
+                    <p class="projects__description">
+                      Elevate your online presence with a captivating landing page website crafted by Hirut Assefa.
+                    </p>
+                  </div>
+                  <div class="projects__buttons">
+                    <a href="https://github.com/HirutAssefa/VibeStudio-landing-page-website" class="projects__link" target="_self">
+                      <i class="ri-github-line"></i>Code
+                    </a>
+
+                    <a href="https://vibestudio.netlify.app/" class="projects__link" target="_self">
+                      <i class="ri-computer-line"></i>View
+                    </a>
+                  </div>
+                </article>
+
+                <!-- 3rd -->
+                <article class="projects__card">
+                  <div class="projects__image">
+                    <img src="assets/images/project3.JPG" alt="" class="projects__img">
+                    <a href="https://siteswift.netlify.app/" class="projects__button button" rel="noopener">
+                      <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                  </div>
+                  <div class="projects__content">
+                    <h3 class="projects__subtitle">Website</h3>
+                    <h2 class="projects__title">SiteSwift Web Hosting And Maintenance Services website</h2>
+                    <p class="projects__description">
+                      Elevate your online presence with a captivating landing page website crafted by Hirut Assefa.
+                    </p>
+                  </div>
+                  <div class="projects__buttons">
+                    <a href="https://github.com/HirutAssefa/SiteSwift-web-hosting-and-maintenance-services-website" class="projects__link" target="_self" rel="noopener">
+                      <i class="ri-github-line"></i>Code
+                    </a>
+
+                    <a href="https://siteswift.netlify.app/" class="projects__link" target="_blank" rel="noopener">
+                      <i class="ri-computer-line"></i>
+                      View
+                    </a>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+          <!--==================== PROJECTS END====================-->
+
+          <!--==================== CONTACT START====================-->
+
+          <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+              <div class="contact__data">
+                <h2 class="section__title-2">
+                  <span>Contact Me</span>
+                </h2>
+              </div>
+
+              <div class="contact__mail">
+                <h2 class="contact__title text-center">
+                  Send Me A Message
+                </h2>
+                <form action="" class="contact__form" id="contact__form">
+                  <div class="contact__group">
+                    <div class="contact__box">
+                      <input type="text" class="contact__input" id="name" name="user_name" required
+                        placeholder="First Name">
+                      <label for="name" class="contact__label">First Name</label>
+                    </div>
+
+                    <div class="contact__box">
+                      <input type="email" class="contact__input" id="email" name="user_email" required
+                        placeholder="Email Address">
+                      <label for="email" class="contact__label">Email Address</label>
+                    </div>
+                  </div>
+
+                  <div class="contact__box">
+                    <input type="text" class="contact__input" id="subject" name="user_subject" required
+                      placeholder="Subject">
+                    <label for="subject" class="contact__label">Subject</label>
+                  </div>
+
+                  <div class="contact__box contact__area">
+                    <textarea name="user_message" id="message" class="contact__input" required
+                      placeholder="Message"></textarea>
+                    <label for="message" class="contact__label">Message</label>
+                  </div>
+
+                  <p class="contact__message" id="contact__message"></p>
+
+                  <button class="contact__button button" type="submit">
+                    <i class="ri-send-plane-line"></i>Send Message
+                  </button>
+                </form>
+              </div>
+
+              <div class="contact__social text-center">
+                <div class="contact__social-data">
+                  <div>
+                    <p class="contact__social-description-2">
+                      Write me on my social network
+                    </p>
+                  </div>
+                  <div class="contact__social-links">
+                    <a href="https://github.com/HirutAssefa" class="contact__social-link" target="_self" title="github Link" rel="noopener">
+                      <i class="ri-github-line"></i>
+                    </a>
+
+                    <a href="https://twitter.com/GebrekidanHirut" class="contact__social-link" target="_self" title="twitter Link" rel="noopener">
+                      <i class="ri-twitter-line"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/hirutassefa/" class="contact__social-link" target="_self" title="Linkedin Link" rel="noopener">
+                      <i class="ri-linkedin-box-line"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--==================== CONTACT END====================-->
+        </main>
+        <!-- MAIN END -->
+
+        <!--==================== FOOTER START====================-->
+        <footer class="footer">
+          <div class="footer__container container grid">
+            <ul class="footer__links">
+              <li>
+                <a href="#about" class="footer__link">About</a>
+              </li>
+              <li>
+                <a href="#projects" class="footer__link">Projects</a>
+              </li>
+            </ul>
+            <span class="footer__copy">
+              &#169; All Right Reserved By <a href="">Hirut Assefa Gebrekidan</a>
+            </span>
+          </div>
+        </footer>
+        <!--==================== FOOTER END====================-->
+
+        <!--========== SCROLL UP START==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+          <i class="ri-arrow-up-s-line"></i>
+        </a>
+        <!--========== SCROLL UP END==========-->
+</body>
+
+</html>
