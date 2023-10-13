@@ -1,10 +1,10 @@
-# M.Sc. Hirut Assefa Gebrekidan Portfolio
+# Hirut Assefa Gebrekidan Portfolio
 
 Welcome to my GitHub portfolio! This repository showcases my skills, projects, and contributions to the world of technology. Explore my work and get in touch if you'd like to collaborate or have any questions.
 
 ## Table of Contents
 
-- [M.Sc. Hirut Assefa Gebrekidan Portfolio](#msc-hirut-assefa-gebrekidan-portfolio)
+- [Hirut Assefa Gebrekidan Portfolio](#msc-hirut-assefa-gebrekidan-portfolio)
   - [Table of Contents](#table-of-contents)
   - [About Me](#about-me)
   - [Projects](#projects)
