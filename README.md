@@ -35,7 +35,6 @@ For a complete list of my projects, please visit my [portfolio page](Link to you
 Let's connect and make technology even more exciting! Feel free to reach out:
 
 - [Linkedin Profile](https://www.linkedin.com/in/hirutassefa/)
-- [Twitter Profile](https://twitter.com/hirutassefa)
 - [Hirutassefa04@yahoo.com](mailto:Hirutassefa04@yahoo.com)
   
 Thanks for visiting! 🙌
