@@ -29,6 +29,7 @@ For a complete list of my projects, please visit my [portfolio page](Link to you
 
 - Front-end Development: HTML, CSS, JavaScript
 - UX/UI Design: Figma, Canva
+- Software testing
 
 ## Contact
 
